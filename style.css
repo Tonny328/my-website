@@ -1,0 +1,100 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f5f5f5;
+}
+
+/* Header Styling */
+header {
+  background-image: url('New folder/Images/pexels-public-domain-pictures-68147.jpg'); /* Correct image path */
+  background-size: 30%;
+  background-image: url('New folder/Images/pexels-public-domain-pictures-68147.jpg'); /* Correct image path */
+  background-size: contain; /* Entire image fits within bounds */
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 300px; /* Container width */
+  height: 200px; /* Container height */ /* Optional styling */ /* Align text */
+  color: #800080; /* Text color over image */
+}
+
+  
+
+
+header h1 {
+  font-size: 2.25rem;
+  margin-bottom: 10px;
+}
+
+header p {
+  white-space: nowrap
+  font-size 1.2rem;
+}
+
+/* Navigation Menu */
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  background-color: #333;
+  padding: 10px;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Main Content */
+main {
+  padding: 20px;
+}
+
+/* Section Styling */
+section {
+  padding: 20px;
+  margin: 20px 0;
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: #4caf50; /* Green for headings */
+}
+
+/* Footer Styling */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+/* Links Styling */
+a {
+  color: #4caf50;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
